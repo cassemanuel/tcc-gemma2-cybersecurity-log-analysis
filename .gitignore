@@ -1,10 +1,10 @@
-cat << 'EOF' > .gitignore
 # Arquivos de sistema do Windows
 desktop.ini
 thumbs.db
 
-# Logs e arquivos de texto brutos
+# Logs e arquivos de texto brutos (com exceção do requirements.txt)
 *.txt
+!requirements.txt
 *.log
 
 # Cache do Python / Jupyter Notebook
@@ -15,4 +15,3 @@ __pycache__/
 # Ambientes virtuais (se houver)
 venv/
 .venv/
-EOF

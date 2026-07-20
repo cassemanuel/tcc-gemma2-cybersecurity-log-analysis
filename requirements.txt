@@ -1,0 +1,11 @@
+cat << 'EOF' > requirements.txt
+torch
+transformers
+accelerate
+bitsandbytes
+huggingface_hub
+pandas
+scikit-learn
+matplotlib
+seaborn
+EOF
