@@ -1,1 +1,18 @@
+cat << 'EOF' > .gitignore
+# Arquivos de sistema do Windows
+desktop.ini
+thumbs.db
+
+# Logs e arquivos de texto brutos
+*.txt
 *.log
+
+# Cache do Python / Jupyter Notebook
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ambientes virtuais (se houver)
+venv/
+.venv/
+EOF
